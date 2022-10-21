@@ -1,3 +1,8 @@
+/*20. Escreva um programa que retorne à sequência de Fibonacci até o limite
+informado. Na matemática, a sequência de Fibonacci é uma sequência de
+números inteiros, começando normalmente por 0 e 1, na qual cada termo
+subsequente corresponde à soma dos dois anteriores. Ex: Se a entrada for igual
+a 7. A sequência de Fibonacci será: 0 1 1 2 3 5 8.*/
 #include <stdio.h>
 #include <stdlib.h>
 

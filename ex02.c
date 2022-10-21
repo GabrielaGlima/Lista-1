@@ -1,3 +1,4 @@
+/*2. Dado um número inteiro, exibir seu sucessor e antecessor.*/
 #include <stdio.h>
 #include <stdlib.h>
 

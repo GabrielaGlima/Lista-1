@@ -1,3 +1,7 @@
+/*4. Desenvolva um algoritmo que leia a altura de 4 pessoas. Este programa deverá
+mostrar.
+a) A menor altura;
+b) A maior altura.*/
 #include <stdio.h>
 #include <stdlib.h>
 
