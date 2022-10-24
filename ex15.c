@@ -11,10 +11,10 @@ int main(){
     while(n>=0 && n<=60){
         if (n==60){
             printf("o sucessor do numero e:%d\n",suc60);
-            return;
+            return 0;
         }else {
             printf("o sucessor do numero e:%d\n",n+1);
-            return;         
+            return 0;         
         }
     }
         printf("Valor inserido nao se encontra no intervalo de 0 a 60 insira outro valor:\n");  
