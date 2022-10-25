@@ -3,19 +3,21 @@
 #include <stdlib.h>
 
 int main(){
-   int fat,i,n,cont;
+  int fat,i,n,cont;
 
     printf("insira um valor para calcular seu fatorial:\n");
     scanf("%d", &n);
 
     fat=1;
-    for ( i = n; i > 1; i--){
-    fat*=i;
+        printf("%d! = ",n);
+            for ( i = n; i > 1; i--){
+                fat*=i;
+    }
+        for ( i = n; i > 1; i--){
+        printf("%d X ",i);
     }
     
-    
-    printf("%d!=%d\n",n,fat);
-    printf("%d", cont);
+    printf("1 = %d\n",fat);
     
     system("PAUSE");
     return 0;
